@@ -23,4 +23,4 @@ Ne lancer un autre site que s’il a une audience, un corpus et un apport réell
 
 ## Domaine
 
-L'URL GitHub Pages est provisoire. Ne pas acheter un domaine sur un compte tiers non vérifié et ne pas changer le canonical avant que le domaine soit réellement configuré, joignable en HTTPS et redirigé proprement. Vérifier la politique GitHub Pages, les en-têtes HTTP, robots, sitemap, canonical et la présence du site public après chaque bascule.
+L'URL `https://ranksas.github.io/` est provisoire. L'ancien hôte `https://myfrank-io.github.io/` doit rediriger les pages vers leurs équivalents après vérification du nouveau domaine. Ne pas acheter un domaine sur un compte tiers non vérifié et ne pas changer le canonical avant que le domaine soit réellement configuré, joignable en HTTPS et redirigé proprement. Vérifier la politique GitHub Pages, les en-têtes HTTP, robots, sitemap, canonical et la présence du site public après chaque bascule.

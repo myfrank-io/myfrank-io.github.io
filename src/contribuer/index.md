@@ -9,7 +9,7 @@ Une contribution utile décrit une situation réelle, ce qui a été vérifié, 
 
 ## Proposer un cas ou une correction
 
-[Ouvrir le formulaire de contribution sur GitHub](https://github.com/myfrank-io/myfrank-io.github.io/issues/new?template=contribution.yml). Un compte GitHub est nécessaire. Si vous n’en avez pas, vous pouvez transmettre votre proposition à [contact@myfrank.io](mailto:contact@myfrank.io?subject=Terrain%20Visible%20-%20contribution) en indiquant « Terrain Visible » ; aucune publication automatique n’en découle.
+Écrivez à [contact@myfrank.io](mailto:contact@myfrank.io?subject=Terrain%20Visible%20-%20contribution) avec pour objet « Terrain Visible — contribution ». Cette adresse est celle de notre éditeur MyFrank. Aucun compte GitHub n’est nécessaire et aucun texte reçu n’est publié automatiquement.
 
 Indiquez le secteur, le problème étudié, la méthode de vérification, les limites et les sources autorisées à être citées. Ne joignez ni identité de client, ni conversation privée, ni capture contenant des données personnelles.
 

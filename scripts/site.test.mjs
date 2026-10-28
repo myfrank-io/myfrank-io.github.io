@@ -14,7 +14,7 @@ test('eleven public pages have unique titles, canonical URLs and visible ownersh
     assert.ok(title, path);
     assert.ok(!titles.has(title), title);
     titles.add(title);
-    assert.ok(html.includes(`rel="canonical" href="https://myfrank-io.github.io${path}"`), path);
+    assert.ok(html.includes(`rel="canonical" href="https://ranksas.github.io${path}"`), path);
     assert.ok(html.includes('créé et exploité par <a href="https://myfrank.io/">MyFrank</a>'), path);
     assert.equal((html.match(/<h1\b/g) || []).length, 1, path);
   }
@@ -34,7 +34,7 @@ test('original example and local calculator are delivered, not merely claimed', 
 test('sitemap and robots list the canonical host and no nonexistent page', () => {
   const sitemap = readFileSync(new URL('./sitemap.xml', root), 'utf8');
   const robots = readFileSync(new URL('./robots.txt', root), 'utf8');
-  for (const path of pages) assert.ok(sitemap.includes(`https://myfrank-io.github.io${path}</loc>`), path);
-  assert.ok(robots.includes('Sitemap: https://myfrank-io.github.io/sitemap.xml'));
+  for (const path of pages) assert.ok(sitemap.includes(`https://ranksas.github.io${path}</loc>`), path);
+  assert.ok(robots.includes('Sitemap: https://ranksas.github.io/sitemap.xml'));
   assert.ok(!sitemap.includes('/contact'));
 });
