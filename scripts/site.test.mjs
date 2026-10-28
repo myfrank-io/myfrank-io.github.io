@@ -15,6 +15,7 @@ test('eleven public pages have unique titles, canonical URLs and visible ownersh
     assert.ok(!titles.has(title), title);
     titles.add(title);
     assert.ok(html.includes(`rel="canonical" href="https://ranksas.github.io${path}"`), path);
+    assert.ok(html.includes(`http-equiv="refresh" content="0;url=https://ranksas.github.io${path}"`), path);
     assert.ok(html.includes('créé et exploité par <a href="https://myfrank.io/">MyFrank</a>'), path);
     assert.equal((html.match(/<h1\b/g) || []).length, 1, path);
   }

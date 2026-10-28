@@ -6,6 +6,7 @@
   <title>{{ title }} · {{ site.name }}</title>
   <meta name="description" content="{{ description or site.description }}">
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <meta http-equiv="refresh" content="0;url={{ site.url }}{{ page.url }}">
   <meta property="og:type" content="{{ 'article' if tags and 'article' in tags else 'website' }}">
   <meta property="og:title" content="{{ title }} · {{ site.name }}">
   <meta property="og:description" content="{{ description or site.description }}">
